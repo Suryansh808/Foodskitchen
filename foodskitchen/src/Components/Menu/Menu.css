@@ -1,0 +1,55 @@
+.menu-page{
+    width: 100%;
+    height: auto;
+}
+.menu-page .menu-boxes{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menu-boxes .box1{
+    width: 20%;
+}
+.box1 img{
+    width: 100%;
+}
+.box1 button{
+    padding: 3px 6px;
+    margin: 2px;
+    cursor: pointer;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: blue;
+}
+.heading i{
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+}
+.heading h1{
+    color: #fff;
+    font-size: 20px;
+}
+strong{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.82);
+    top: 2px;
+    right: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}

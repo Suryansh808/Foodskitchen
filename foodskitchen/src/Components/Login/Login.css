@@ -1,0 +1,30 @@
+.login-form{
+    width: 100%;
+    height: auto;
+    
+}
+.loginformation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.loginformation h1{
+    padding: 10px;
+}
+.loginformation form input{
+   margin: 5vh 0;
+}
+.loginformation form input{
+    padding: 10px 10px;
+}
+form button{
+   padding: 10px;
+   color: white;
+   border: none;
+   outline: none;
+   background-color: rgb(45, 45, 149);
+   cursor: pointer;
+}
